@@ -1,0 +1,31 @@
+/* Estilos para a página*/
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+main {
+    max-width: 800px;
+    margin: o auto;
+    padding: 2rem;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+/* Estilos responsivos*/
+@media (max-width: 600px) {
+    main{
+        padding: 1rem;
+    }
+    
+}
