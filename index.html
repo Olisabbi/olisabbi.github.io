@@ -1,57 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-sacle=1.0">
-<title>Olivandro Mateus Sabbi</title>
-<link rel="stylesheet" href="style.css">
-<style>
-    p.rodape {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 10px;
-        text-align: center;
-    }
-    h1 {
-        text-align: center;
-    }
-    main .botao-flutuante {
-        position: absolute;
-        top: 100px;
-        left: 70px;
-        background-color: #333;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra */
-    }
-    main .botao-flutuante a {
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-    }
-    main a {
-        text-decoration: none;
-        color: #141414;
-        font-weight: bold;
-        font-size: large;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sacle=1.0">
+    <title>Olivandro Mateus Sabbi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script>
+        src = "perguntaEndereco.js"
+    </script>
+    <style>
+    </style>
 </head>
+
 <body>
     <header>
-        <h1>Mega Fit</h1>
+        <h1>Controle de Gastos</h1>
     </header>
-    <main> 
-        <div class="botao-flutuante">
-            <a href="#">Treinos</a>
-        </div>
-    </main>
-    <footer>
-        <p class="rodape">&copy; Oli</p>
-    </footer>
+    <main>
+        <p id="demo" onmouseout="mudarDeCor(this)">Exemplo</p>
+        <button type="button" onclick="emiteAlerta()">Clique aqui para emitir uma alerta</button>
+        <button onclick="perguntaEndereco()">Consultar endereço</button>
+        <footer>
+            <p class="rodape">&copy; Oli</p>
+        </footer>
 </body>
-</html>
 
+</html>
