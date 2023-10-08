@@ -1,30 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-sacle=1.0">
-    <title>Olivandro Mateus Sabbi</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <script>
-        src = "perguntaEndereco.js"
-    </script>
-    <style>
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Adicione o link para o arquivo CSS -->
 </head>
-
 <body>
     <header>
-        <h1>Controle de Gastos</h1>
+        <h1>Olivandro Mateus Sabbi</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <p id="demo" onmouseout="mudarDeCor(this)">Exemplo</p>
-        <button type="button" onclick="emiteAlerta()">Clique aqui para emitir uma alerta</button>
-        <button onclick="perguntaEndereco()">Consultar endereço</button>
-        <footer>
-            <p class="rodape">&copy; Oli</p>
-        </footer>
-</body>
 
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Coloque aqui uma breve descrição sobre você e suas habilidades.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="projeto">
+            <img src="imagem1.jpg" alt="Projeto 1">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1.</p>
+        </div>
+        <div class="projeto">
+            <img src="imagem2.jpg" alt="Projeto 2">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2.</p>
+        </div>
+        <!-- Adicione mais projetos conforme necessário -->
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo através do email: <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Olivandri Mateus Sabbi Todos os direitos reservados.</p>
+    </footer>
+</body>
 </html>
