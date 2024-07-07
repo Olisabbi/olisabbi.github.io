@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 header {
-    background-color: #2a2a6d;
+    background-color: #13678A;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -25,7 +25,7 @@ nav a {
 
 .container {
     width: 80%;
-    margin: 20px auto;
+    margin: 20px auto 80px auto; /* Adicionando margem inferior */
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -36,16 +36,16 @@ nav a {
 }
 
 .post h2 {
-    color: #245a94;
+    color: #012030;
 }
 
 .post p {
-    color: #666;
+    color: #1f1e1e;
     line-height: 1.6;
 }
 
 footer {
-    background-color: #2a2a6d;
+    background-color: #13678A;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
